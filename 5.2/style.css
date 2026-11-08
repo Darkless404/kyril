@@ -1,0 +1,118 @@
+/* Cкопіюй код з минулого уроку */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("image/anime.avif");
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.hide {
+    display:none;
+}
+
+.correct {
+    background-color: #6bf2b3 ;
+}
+
+.wrong {
+    background-color: #161b24 ;
+    color: white;
+}
+#start-btn {
+    background-color: #161b24;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -11px -1px 400px 75px rgba(143,231,237,0.75);
+}
+
+#restart-btn {
+    background-color: #161b24;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -11px -1px 400px 75px rgba(143,231,237,0.75);
+}
+
+
+
+
+#question-text {
+     background-color: #000d21;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -11px -1px 400px 75px rgba(143,231,237,0.75);
+}
+#answers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+
+.answer-btn {
+    background-color: #cdddf7;
+    color: #333;
+    border: 5px solid #b1c2de;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 26px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-ease-out;
+    text-align: left;
+}
+
+
+.answer-btn:hover {
+    background-color: #e2e8f0;
+    border-color: #bcccdc;
+    transform: translateY(-2px);
+}
+
+
+.answer-btn.correct {
+    background-color: #67e6a6 !important;
+    color: #deffee !important;
+    border-color: #2fd683 !important;
+}
+
+
+.answer-btn.wrong {
+    background-color: #ffb8b8 !important;
+    color: #ffdede !important;
+    border-color: #ff7575 !important;
+}
+
+h1 {
+    color :#320580 ;
+}
+
+h2 {
+    color: #320580;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d0b5ff;
+    padding:20px;
+    border-radius: 10px;
+}
