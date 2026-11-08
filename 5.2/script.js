@@ -22,6 +22,16 @@ document.addEventListener('DOMContentLoaded', () => {
             answers: ["диявольські фрукти", "палці сукуни", "рамен", "сікс-севен-кіди"],
             correct: 2
         },
+        {
+            question: "Хто вбив сімю Тандвжір із «Клинок, який знищує демонів» (Demon Slayer)?",
+            answers: ["Мудзан Кібуцуджі", "Майкл джексон", "Ромен Сукна", "Годжо Сатору"],
+            correct: 0
+        },
+        {
+            question: "Яку їжу обожнював бог смерті Рюк з «Зошит смерті» (Death Note)? ",
+            answers: ["банани", "палці сукуни", "яблука", "пиріжки з лайном"],
+            correct: 2
+        },
         //   Додай свої запитання
     ];
     
@@ -105,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     restartButton.addEventListener('click', startGame)
     
     function startTime(){
-        timer = 15 
+        timer = 35 
         timeBar.innerText = `Час: ${timer}`
         interval = setInterval(() => {
             timer--
